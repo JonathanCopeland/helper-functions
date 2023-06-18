@@ -11,6 +11,10 @@
 		BD227C642A3DC66700599E30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD227C632A3DC66700599E30 /* ContentView.swift */; };
 		BD227C662A3DC66800599E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD227C652A3DC66800599E30 /* Assets.xcassets */; };
 		BD227C692A3DC66800599E30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD227C682A3DC66800599E30 /* Preview Assets.xcassets */; };
+		BDDE3EAC2A3F56D5003F6F81 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EAB2A3F56D5003F6F81 /* User.swift */; };
+		BDDE3EAE2A3F56DE003F6F81 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EAD2A3F56DE003F6F81 /* Address.swift */; };
+		BDDE3EB02A3F571F003F6F81 /* addressData.json in Resources */ = {isa = PBXBuildFile; fileRef = BDDE3EAF2A3F571F003F6F81 /* addressData.json */; };
+		BDDE3EB22A3F720B003F6F81 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EB12A3F720B003F6F81 /* Bundle-Decodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BD227C632A3DC66700599E30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD227C652A3DC66800599E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD227C682A3DC66800599E30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDDE3EAB2A3F56D5003F6F81 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BDDE3EAD2A3F56DE003F6F81 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		BDDE3EAF2A3F571F003F6F81 /* addressData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = addressData.json; sourceTree = "<group>"; };
+		BDDE3EB12A3F720B003F6F81 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BD227C612A3DC66700599E30 /* JSON_decoderApp.swift */,
 				BD227C632A3DC66700599E30 /* ContentView.swift */,
+				BDDE3EB12A3F720B003F6F81 /* Bundle-Decodable.swift */,
+				BDDE3EAF2A3F571F003F6F81 /* addressData.json */,
+				BDDE3EAB2A3F56D5003F6F81 /* User.swift */,
+				BDDE3EAD2A3F56DE003F6F81 /* Address.swift */,
 				BD227C652A3DC66800599E30 /* Assets.xcassets */,
 				BD227C672A3DC66800599E30 /* Preview Content */,
 			);
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDE3EB02A3F571F003F6F81 /* addressData.json in Resources */,
 				BD227C692A3DC66800599E30 /* Preview Assets.xcassets in Resources */,
 				BD227C662A3DC66800599E30 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDDE3EAC2A3F56D5003F6F81 /* User.swift in Sources */,
 				BD227C642A3DC66700599E30 /* ContentView.swift in Sources */,
 				BD227C622A3DC66700599E30 /* JSON_decoderApp.swift in Sources */,
+				BDDE3EAE2A3F56DE003F6F81 /* Address.swift in Sources */,
+				BDDE3EB22A3F720B003F6F81 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
